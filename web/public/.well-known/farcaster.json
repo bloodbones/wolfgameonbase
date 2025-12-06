@@ -1,0 +1,25 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjQyOSwidHlwZSI6ImF1dGgiLCJrZXkiOiIweEVDNUZlMDUyYzA0M0I0OTdkQWZlZDA1MTljRTYxMTM5OTk2ZDdkNjkifQ",
+    "payload": "eyJkb21haW4iOiJub25iYW5rYWJsZS15dW9ubmUtdHJvcGhhbGxhY3RpYy5uZ3Jvay1mcmVlLmRldiJ9",
+    "signature": "1e+OgYWxfiRrKHMl1qScJk57ZXjbg/BE0bQM3mOunLRSzNIIheea1bDFRwZC9Ju4UEwzcMaHk03f/VlOca7JRBw="
+  },
+  "miniapp": {
+    "version": "1",
+    "name": "Wolf Game Base",
+    "iconUrl": "https://nonbankable-yuonne-trophallactic.ngrok-free.dev/icon.png",
+    "homeUrl": "https://nonbankable-yuonne-trophallactic.ngrok-free.dev",
+    "imageUrl": "https://nonbankable-yuonne-trophallactic.ngrok-free.dev/embed.png",
+    "button": {
+      "title": "Play",
+      "action": {
+        "type": "launch_miniapp",
+        "url": "https://nonbankable-yuonne-trophallactic.ngrok-free.dev",
+        "name": "Wolf Game Base",
+        "splashImageUrl": "https://nonbankable-yuonne-trophallactic.ngrok-free.dev/icon.png",
+        "splashBackgroundColor": "#1a1a1a"
+      }
+    },
+    "webhookUrl": "https://nonbankable-yuonne-trophallactic.ngrok-free.dev/api/webhooks/miniapp"
+  }
+}
