@@ -658,7 +658,7 @@ export default function Home() {
         {!isConnected ? (
           // Welcome screen for non-connected users (fallback for web)
           <div className="text-center py-12 sm:py-20">
-            <h2 className="text-xl sm:text-2xl font-bold mb-4">Welcome to Wolf Game Base</h2>
+            <h2 className="text-xl sm:text-2xl font-bold mb-4">Welcome to Wolf Game On Base</h2>
             <p className="text-muted-foreground mb-6 sm:mb-8 px-4">
               Mint sheep and wolves, stake them in the barn, and earn WOOL.
             </p>

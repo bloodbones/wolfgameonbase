@@ -25,7 +25,7 @@ export async function GET() {
     accountAssociation,
     miniapp: {
       version: "1",
-      name: "Wolf Game Base",
+      name: "Wolf Game On Base",
       iconUrl: `${appUrl}/icon.png`,
       homeUrl: appUrl,
       imageUrl: `${appUrl}/embed.png`,
@@ -34,7 +34,7 @@ export async function GET() {
         action: {
           type: "launch_miniapp",
           url: appUrl,
-          name: "Wolf Game Base",
+          name: "Wolf Game On Base",
           splashImageUrl: `${appUrl}/icon.png`,
           splashBackgroundColor: "#1a1a1a"
         }
