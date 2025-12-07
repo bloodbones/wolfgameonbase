@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 
-const APP_URL = process.env.NEXT_PUBLIC_URL || "https://nonbankable-yuonne-trophallactic.ngrok-free.dev";
+const APP_URL = process.env.NEXT_PUBLIC_APP_URL || "https://wolfgameonbase.vercel.app";
 
 export function getMiniAppMetadata(): Metadata {
   const title = "Wolf Game Base";
