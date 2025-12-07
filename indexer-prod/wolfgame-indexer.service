@@ -1,0 +1,20 @@
+[Unit]
+Description=Wolf Game Ponder Indexer
+After=network.target
+
+[Service]
+Type=simple
+User=czar
+WorkingDirectory=/home/czar/coding/wolfgame/indexer
+Environment=NODE_ENV=production
+Environment=PONDER_RPC_URL_84532=https://base-sepolia.g.alchemy.com/v2/nLx-FnyDu5ysJz0FHxxz0
+Environment=DATABASE_SCHEMA=wolfgame
+Environment=WEB_APP_URL=https://nonbankable-yuonne-trophallactic.ngrok-free.dev
+ExecStart=/usr/bin/npm run dev
+Restart=on-failure
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
